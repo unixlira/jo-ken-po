@@ -10,6 +10,13 @@ use Illuminate\Http\Request;
 class Jokenpo extends Controller
 {
 
+    public function home()
+    {
+
+        return view('home');
+    }
+
+
     public function index(Request $request)
     {
         $result = null;

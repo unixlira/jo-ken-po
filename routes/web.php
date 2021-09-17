@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 
 
 //Rota do Game Jokenpo
+
+Route::get('/', [Jokenpo::class, 'home']);
 Route::get('/jokenpo', [Jokenpo::class, 'index']);
 Route::get('/rounds', [Jokenpo::class, 'rounds']);
 Route::get('/round/{id}', [Jokenpo::class, 'round']);
