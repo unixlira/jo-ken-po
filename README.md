@@ -36,7 +36,7 @@ Requisitos necessários do sistema:
 Instalando no Linux
 
 ```
-$ git clone https://github.com/unixlira/jo-ken-po.git
+git clone https://github.com/unixlira/jo-ken-po.git
 ```
 
 Depois de clonado, vamos acessar o projeto.
@@ -48,7 +48,7 @@ cd jo-ken-po
 Instalando Dependências
 
 ```
-$ composer install
+composer update
 ```
 
 ### Banco de dados MySQL
